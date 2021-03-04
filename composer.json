@@ -2,7 +2,7 @@
   "name": "thinkcmfgll/plugins-pay-pal",
   "description": "ThinkCMF支付插件",
   "type": "cmf-plugin",
-  "license": "apache2.0",
+  "license": "proprietary",
   "authors": [
     {
       "name": "GLL",
