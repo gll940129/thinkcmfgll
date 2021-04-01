@@ -7,16 +7,34 @@ namespace Composer\Autoload;
 class ComposerStaticInit8661c15b8b0aeaa5ffacd85193f4d1fc
 {
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Sample\\' => 7,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'PayPalHttp\\' => 11,
+            'PayPalCheckoutSdk\\' => 18,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Sample\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paypal/paypal-checkout-sdk/samples',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'PayPalHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paypal/paypalhttp/lib/PayPalHttp',
+        ),
+        'PayPalCheckoutSdk\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paypal/paypal-checkout-sdk/lib/PayPalCheckoutSdk',
         ),
     );
 
